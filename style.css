@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+    text-align: start;
+}
+.orange-highlight {
+    color: rgb(243, 9, 9);
+}
+.hulk {
+    width: 40%; /* Adjust the width as needed */
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.hulk img{
+    width:40%;
+
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(45deg,lightsalmon,tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 70px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+#pes{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1 ;
+}
+#efootball{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
