@@ -1,0 +1,31 @@
+body {
+  font-family: roboto, sans-serif;
+  color: #707070;
+}
+h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+h2, h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #000;
+}
+.container {
+  max-width: 1140px;
+  padding: 60px 0;
+  margin: auto;
+  clear: both;
+}
+.half-width {
+  max-width: 50%;
+  float: left;
+}
+.service-item {
+  max-width: 25%;
+  float: left;
+  margin: 0px 15px 20px 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
